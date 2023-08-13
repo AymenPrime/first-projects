@@ -1,0 +1,91 @@
+@media (max-width: 1008px) {
+    .cotainer {
+        width: max(60rem);
+    }
+    .first-page {
+        display: flex;
+        flex-direction: column;
+    }
+    .info {
+        width: 100%;
+    }
+    .hire-me {
+        width: 90%;
+        height: 300px;
+    }
+    .content-one {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .content-two {
+        display: flex;
+        flex-direction: column;
+    }
+    section {
+        height: 300vh;
+    }
+.content-two div {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    height: 300px;
+    width: 60vw;
+    font-size: 18px;
+}
+.content-three {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media (max-width: 838px) {
+    .content-two div {
+        font-size: 13px;
+    }
+    .contact input {
+        width: 350px;
+    }
+    .content-one p {
+    width: 100%;
+    font-size: 15px;
+    }
+}
+@media (max-width: 696px) {
+    ul li a {
+        display: none;
+    }
+    .info p {
+        font-size: 15px;
+    }
+} 
+@media (max-width: 539px) {
+    .hire-me {
+        min-height: 200px;
+    }
+
+}
+@media (max-width: 400px) {
+.container {
+    width: max(20rem);
+}
+.contact input {
+    width: 250px;
+}
+textarea {
+    width: 250px;
+}
+.content-two div {
+    font-size: 11.5px;
+}
+.content-one div {
+    height: 200px;
+}
+.contact-two {
+    display: flex;
+    justify-content: space-between;
+}
+}
+@media (max-width: 360px) {
+
+}
